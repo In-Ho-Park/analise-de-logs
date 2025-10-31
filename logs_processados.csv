@@ -1,0 +1,242 @@
+arquivo,ip_origem,data_hora,porta,evento
+apache.log,192.0.2.45,23/Oct/2025:09:00:01,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:00:03,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:00:05,,POST
+apache.log,203.0.113.9,23/Oct/2025:09:00:08,,GET
+apache.log,192.0.2.120,23/Oct/2025:09:00:12,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:00:15,,GET
+apache.log,198.51.100.200,23/Oct/2025:09:00:18,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:00:20,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:00:22,,GET
+apache.log,203.0.113.70,23/Oct/2025:09:00:25,,GET
+apache.log,192.0.2.78,23/Oct/2025:09:00:28,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:00:30,,POST
+apache.log,192.0.2.45,23/Oct/2025:09:00:33,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:00:36,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:00:38,,GET
+apache.log,192.0.2.101,23/Oct/2025:09:00:40,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:00:42,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:00:44,,POST
+apache.log,192.0.2.45,23/Oct/2025:09:00:47,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:00:50,,GET
+apache.log,198.51.100.99,23/Oct/2025:09:00:52,,GET
+apache.log,192.0.2.120,23/Oct/2025:09:00:55,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:00:57,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:01:00,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:01:03,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:01:06,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:01:09,,GET
+apache.log,192.0.2.78,23/Oct/2025:09:01:12,,GET
+apache.log,198.51.100.150,23/Oct/2025:09:01:15,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:01:18,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:01:21,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:01:23,,POST
+apache.log,192.0.2.120,23/Oct/2025:09:01:25,,GET
+apache.log,203.0.113.65,23/Oct/2025:09:01:28,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:01:31,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:01:34,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:01:36,,GET
+apache.log,198.51.100.101,23/Oct/2025:09:01:39,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:01:42,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:01:45,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:01:48,,POST
+apache.log,192.0.2.90,23/Oct/2025:09:01:50,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:01:52,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:01:55,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:01:58,,GET
+apache.log,203.0.113.120,23/Oct/2025:09:02:01,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:02:04,,POST
+apache.log,192.0.2.120,23/Oct/2025:09:02:07,,GET
+apache.log,203.0.113.59,23/Oct/2025:09:02:10,,GET
+apache.log,198.51.100.200,23/Oct/2025:09:02:13,,GET
+apache.log,192.0.2.78,23/Oct/2025:09:02:15,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:02:18,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:02:20,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:02:22,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:02:25,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:02:28,,POST
+apache.log,192.0.2.120,23/Oct/2025:09:02:30,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:02:33,,GET
+apache.log,198.51.100.150,23/Oct/2025:09:02:36,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:02:39,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:02:42,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:02:45,,POST
+apache.log,192.0.2.88,23/Oct/2025:09:02:48,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:02:51,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:02:54,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:02:56,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:02:59,,GET
+apache.log,198.51.100.110,23/Oct/2025:09:03:02,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:03:05,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:03:08,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:03:10,,POST
+apache.log,192.0.2.120,23/Oct/2025:09:03:13,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:03:16,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:03:19,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:03:22,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:03:25,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:03:28,,POST
+apache.log,192.0.2.45,23/Oct/2025:09:03:31,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:03:34,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:03:37,,GET
+apache.log,192.0.2.77,23/Oct/2025:09:03:40,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:03:43,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:03:46,,POST
+apache.log,192.0.2.45,23/Oct/2025:09:03:49,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:03:52,,GET
+apache.log,198.51.100.200,23/Oct/2025:09:03:55,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:03:58,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:04:01,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:04:04,,GET
+apache.log,192.0.2.120,23/Oct/2025:09:04:07,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:04:10,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:04:13,,POST
+apache.log,192.0.2.45,23/Oct/2025:09:04:16,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:04:19,,GET
+apache.log,198.51.100.150,23/Oct/2025:09:04:22,,GET
+apache.log,192.0.2.45,23/Oct/2025:09:04:25,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:04:28,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:04:31,,POST
+apache.log,192.0.2.120,23/Oct/2025:09:04:34,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:04:37,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:04:40,,POST
+apache.log,192.0.2.45,23/Oct/2025:09:04:43,,GET
+apache.log,203.0.113.55,23/Oct/2025:09:04:46,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:04:49,,GET
+apache.log,192.0.2.99,23/Oct/2025:09:04:52,,GET
+apache.log,203.0.113.9,23/Oct/2025:09:04:55,,GET
+apache.log,198.51.100.14,23/Oct/2025:09:04:58,,POST
+apache.log,192.0.2.45,23/Oct/2025:09:05:01,,GET
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Desconhecido
+auth.log,192.0.2.10,,,Desconhecido
+auth.log,203.0.113.55,,,Failed password
+auth.log,203.0.113.55,,,Failed password
+auth.log,203.0.113.55,,,Failed password
+auth.log,203.0.113.55,,,Failed password
+auth.log,203.0.113.55,,,Desconhecido
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Desconhecido
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Desconhecido
+auth.log,192.0.2.15,,,Desconhecido
+auth.log,203.0.113.77,,,Failed password
+auth.log,203.0.113.77,,,Failed password
+auth.log,203.0.113.77,,,Failed password
+auth.log,203.0.113.77,,,Failed password
+auth.log,203.0.113.77,,,Failed password
+auth.log,203.0.113.77,,,Desconhecido
+auth.log,198.51.100.200,,,Failed password
+auth.log,198.51.100.200,,,Failed password
+auth.log,198.51.100.200,,,Failed password
+auth.log,198.51.100.200,,,Failed password
+auth.log,198.51.100.200,,,Failed password
+auth.log,198.51.100.200,,,Desconhecido
+auth.log,192.0.2.10,,,Desconhecido
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Desconhecido
+auth.log,203.0.113.200,,,Failed password
+auth.log,203.0.113.200,,,Failed password
+auth.log,203.0.113.200,,,Failed password
+auth.log,203.0.113.200,,,Desconhecido
+auth.log,192.0.2.20,,,Desconhecido
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Desconhecido
+auth.log,,,,Desconhecido
+auth.log,203.0.113.55,,,Failed password
+auth.log,203.0.113.55,,,Failed password
+auth.log,203.0.113.55,,,Failed password
+auth.log,192.0.2.15,,,Desconhecido
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Desconhecido
+auth.log,198.51.100.200,,,Failed password
+auth.log,198.51.100.200,,,Failed password
+auth.log,198.51.100.200,,,Failed password
+auth.log,198.51.100.200,,,Desconhecido
+auth.log,192.0.2.10,,,Desconhecido
+auth.log,203.0.113.77,,,Failed password
+auth.log,203.0.113.77,,,Failed password
+auth.log,203.0.113.77,,,Desconhecido
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Failed password
+auth.log,198.51.100.120,,,Desconhecido
+auth.log,192.0.2.21,,,Desconhecido
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Desconhecido
+auth.log,203.0.113.200,,,Failed password
+auth.log,203.0.113.200,,,Desconhecido
+auth.log,192.0.2.22,,,Desconhecido
+auth.log,,,,Desconhecido
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Failed password
+auth.log,198.51.100.14,,,Desconhecido
+auth.log,198.51.100.200,,,Failed password
+auth.log,198.51.100.200,,,Failed password
+auth.log,198.51.100.200,,,Desconhecido
+ufw.log,198.51.100.14,,,UFW BLOCK
+ufw.log,203.0.113.55,,,UFW BLOCK
+ufw.log,192.0.2.10,,,Desconhecido
+ufw.log,198.51.100.200,,,UFW BLOCK
+ufw.log,203.0.113.99,,,Desconhecido
+ufw.log,198.51.100.14,,,UFW BLOCK
+ufw.log,198.51.100.150,,,UFW BLOCK
+ufw.log,10.0.0.5,,,Desconhecido
+ufw.log,203.0.113.77,,,UFW BLOCK
+ufw.log,203.0.113.120,,,Desconhecido
+ufw.log,198.51.100.120,,,UFW BLOCK
+ufw.log,198.51.100.200,,,UFW BLOCK
+ufw.log,192.0.2.99,,,Desconhecido
+ufw.log,198.51.100.14,,,UFW BLOCK
+ufw.log,10.0.0.6,,,Desconhecido
+ufw.log,203.0.113.55,,,UFW BLOCK
+ufw.log,203.0.113.77,,,UFW BLOCK
+ufw.log,198.51.100.150,,,Desconhecido
+ufw.log,198.51.100.14,,,UFW BLOCK
+ufw.log,192.0.2.10,,,Desconhecido
+ufw.log,203.0.113.120,,,UFW BLOCK
+ufw.log,203.0.113.99,,,Desconhecido
+ufw.log,198.51.100.120,,,UFW BLOCK
+ufw.log,198.51.100.200,,,UFW BLOCK
+ufw.log,10.0.0.7,,,Desconhecido
+ufw.log,203.0.113.120,,,Desconhecido
+ufw.log,198.51.100.14,,,UFW BLOCK
+ufw.log,203.0.113.55,,,UFW BLOCK
+ufw.log,203.0.113.77,,,UFW BLOCK
+ufw.log,198.51.100.150,,,Desconhecido
+ufw.log,198.51.100.120,,,UFW BLOCK
+ufw.log,10.0.0.8,,,Desconhecido
+ufw.log,203.0.113.120,,,UFW BLOCK
+ufw.log,203.0.113.99,,,Desconhecido
+ufw.log,198.51.100.14,,,UFW BLOCK
+ufw.log,198.51.100.200,,,UFW BLOCK
+ufw.log,192.0.2.99,,,Desconhecido
+ufw.log,203.0.113.55,,,UFW BLOCK
+ufw.log,10.0.0.9,,,Desconhecido
+ufw.log,198.51.100.120,,,UFW BLOCK
+ufw.log,198.51.100.150,,,Desconhecido
+ufw.log,203.0.113.120,,,UFW BLOCK
+ufw.log,198.51.100.14,,,UFW BLOCK
+ufw.log,192.0.2.10,,,Desconhecido
