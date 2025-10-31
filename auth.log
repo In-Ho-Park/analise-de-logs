@@ -1,0 +1,89 @@
+Oct 23 09:00:02 servidor sshd[3221]: Failed password for invalid user admin from 198.51.100.14 port 51234 ssh2
+Oct 23 09:00:05 servidor sshd[3221]: Failed password for invalid user admin from 198.51.100.14 port 51234 ssh2
+Oct 23 09:00:08 servidor sshd[3221]: Failed password for invalid user admin from 198.51.100.14 port 51234 ssh2
+Oct 23 09:00:11 servidor sshd[3221]: Failed password for invalid user admin from 198.51.100.14 port 51234 ssh2
+Oct 23 09:00:14 servidor sshd[3221]: Connection closed by 198.51.100.14 port 51234 [preauth]
+Oct 23 09:00:18 servidor sshd[3229]: Accepted publickey for deploy from 192.0.2.10 port 51255 ssh2: RSA SHA256:AbCdEfGh...
+Oct 23 09:01:03 servidor sshd[3301]: Failed password for root from 203.0.113.55 port 52311 ssh2
+Oct 23 09:01:06 servidor sshd[3301]: Failed password for root from 203.0.113.55 port 52311 ssh2
+Oct 23 09:01:09 servidor sshd[3301]: Failed password for root from 203.0.113.55 port 52311 ssh2
+Oct 23 09:01:12 servidor sshd[3301]: Failed password for root from 203.0.113.55 port 52311 ssh2
+Oct 23 09:01:15 servidor sshd[3301]: Connection closed by 203.0.113.55 port 52311 [preauth]
+Oct 23 09:02:00 servidor sshd[3310]: Failed password for invalid user test from 198.51.100.14 port 51250 ssh2
+Oct 23 09:02:03 servidor sshd[3310]: Failed password for invalid user test from 198.51.100.14 port 51251 ssh2
+Oct 23 09:02:06 servidor sshd[3310]: Failed password for invalid user test from 198.51.100.14 port 51252 ssh2
+Oct 23 09:02:09 servidor sshd[3310]: Failed password for invalid user test from 198.51.100.14 port 51253 ssh2
+Oct 23 09:02:12 servidor sshd[3310]: Failed password for invalid user test from 198.51.100.14 port 51254 ssh2
+Oct 23 09:02:15 servidor sshd[3310]: Connection closed by 198.51.100.14 port 51254 [preauth]
+Oct 23 09:03:20 servidor sshd[3325]: Failed password for root from 198.51.100.120 port 54000 ssh2
+Oct 23 09:03:23 servidor sshd[3325]: Failed password for root from 198.51.100.120 port 54001 ssh2
+Oct 23 09:03:26 servidor sshd[3325]: Failed password for root from 198.51.100.120 port 54002 ssh2
+Oct 23 09:03:29 servidor sshd[3325]: Failed password for root from 198.51.100.120 port 54003 ssh2
+Oct 23 09:03:32 servidor sshd[3325]: Failed password for root from 198.51.100.120 port 54004 ssh2
+Oct 23 09:03:35 servidor sshd[3325]: Failed password for root from 198.51.100.120 port 54005 ssh2
+Oct 23 09:03:38 servidor sshd[3325]: Connection closed by 198.51.100.120 port 54005 [preauth]
+Oct 23 09:04:10 servidor sshd[3332]: Accepted publickey for ubuntu from 192.0.2.15 port 52222 ssh2: RSA SHA256:ZyXwVuTs...
+Oct 23 09:05:00 servidor sshd[3340]: Failed password for invalid user admin from 203.0.113.77 port 55555 ssh2
+Oct 23 09:05:03 servidor sshd[3340]: Failed password for invalid user admin from 203.0.113.77 port 55556 ssh2
+Oct 23 09:05:06 servidor sshd[3340]: Failed password for invalid user admin from 203.0.113.77 port 55557 ssh2
+Oct 23 09:05:09 servidor sshd[3340]: Failed password for invalid user admin from 203.0.113.77 port 55558 ssh2
+Oct 23 09:05:12 servidor sshd[3340]: Failed password for invalid user admin from 203.0.113.77 port 55559 ssh2
+Oct 23 09:05:15 servidor sshd[3340]: Connection closed by 203.0.113.77 port 55559 [preauth]
+Oct 23 09:06:00 servidor sshd[3350]: Failed password for root from 198.51.100.200 port 57000 ssh2
+Oct 23 09:06:03 servidor sshd[3350]: Failed password for root from 198.51.100.200 port 57001 ssh2
+Oct 23 09:06:06 servidor sshd[3350]: Failed password for root from 198.51.100.200 port 57002 ssh2
+Oct 23 09:06:09 servidor sshd[3350]: Failed password for root from 198.51.100.200 port 57003 ssh2
+Oct 23 09:06:12 servidor sshd[3350]: Failed password for root from 198.51.100.200 port 57004 ssh2
+Oct 23 09:06:15 servidor sshd[3350]: Connection closed by 198.51.100.200 port 57004 [preauth]
+Oct 23 09:07:30 servidor sshd[3365]: Accepted password for deploy from 192.0.2.10 port 51255 ssh2
+Oct 23 09:08:00 servidor sshd[3370]: Failed password for invalid user test from 198.51.100.14 port 51260 ssh2
+Oct 23 09:08:03 servidor sshd[3370]: Failed password for invalid user test from 198.51.100.14 port 51261 ssh2
+Oct 23 09:08:06 servidor sshd[3370]: Failed password for invalid user test from 198.51.100.14 port 51262 ssh2
+Oct 23 09:08:09 servidor sshd[3370]: Failed password for invalid user test from 198.51.100.14 port 51263 ssh2
+Oct 23 09:08:12 servidor sshd[3370]: Connection closed by 198.51.100.14 port 51263 [preauth]
+Oct 23 09:09:40 servidor sshd[3388]: Failed password for root from 203.0.113.200 port 58000 ssh2
+Oct 23 09:09:43 servidor sshd[3388]: Failed password for root from 203.0.113.200 port 58001 ssh2
+Oct 23 09:09:46 servidor sshd[3388]: Failed password for root from 203.0.113.200 port 58002 ssh2
+Oct 23 09:09:49 servidor sshd[3388]: Connection closed by 203.0.113.200 port 58002 [preauth]
+Oct 23 09:10:00 servidor sshd[3395]: Accepted publickey for ubuntu from 192.0.2.20 port 52223 ssh2: RSA SHA256:QwErTyUi...
+Oct 23 09:10:30 servidor sshd[3400]: Failed password for invalid user admin from 198.51.100.14 port 51270 ssh2
+Oct 23 09:10:33 servidor sshd[3400]: Failed password for invalid user admin from 198.51.100.14 port 51271 ssh2
+Oct 23 09:10:36 servidor sshd[3400]: Failed password for invalid user admin from 198.51.100.14 port 51272 ssh2
+Oct 23 09:10:39 servidor sshd[3400]: Failed password for invalid user admin from 198.51.100.14 port 51273 ssh2
+Oct 23 09:10:42 servidor sshd[3400]: Connection closed by 198.51.100.14 port 51273 [preauth]
+Oct 23 09:11:00 servidor sudo:     admin : TTY=pts/2 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 23 09:12:01 servidor sshd[3410]: Failed password for root from 203.0.113.55 port 52321 ssh2
+Oct 23 09:12:04 servidor sshd[3410]: Failed password for root from 203.0.113.55 port 52322 ssh2
+Oct 23 09:12:07 servidor sshd[3410]: Failed password for root from 203.0.113.55 port 52323 ssh2
+Oct 23 09:12:10 servidor sshd[3410]: Accepted publickey for ubuntu from 192.0.2.15 port 52224 ssh2: RSA SHA256:LlKjHgF...
+Oct 23 09:13:22 servidor sshd[3425]: Failed password for invalid user test from 198.51.100.120 port 54100 ssh2
+Oct 23 09:13:25 servidor sshd[3425]: Failed password for invalid user test from 198.51.100.120 port 54101 ssh2
+Oct 23 09:13:28 servidor sshd[3425]: Failed password for invalid user test from 198.51.100.120 port 54102 ssh2
+Oct 23 09:13:31 servidor sshd[3425]: Connection closed by 198.51.100.120 port 54102 [preauth]
+Oct 23 09:14:40 servidor sshd[3435]: Failed password for root from 198.51.100.200 port 57200 ssh2
+Oct 23 09:14:43 servidor sshd[3435]: Failed password for root from 198.51.100.200 port 57201 ssh2
+Oct 23 09:14:46 servidor sshd[3435]: Failed password for root from 198.51.100.200 port 57202 ssh2
+Oct 23 09:14:49 servidor sshd[3435]: Connection closed by 198.51.100.200 port 57202 [preauth]
+Oct 23 09:15:00 servidor sshd[3442]: Accepted password for deploy from 192.0.2.10 port 51260 ssh2
+Oct 23 09:15:30 servidor sshd[3450]: Failed password for invalid user admin from 203.0.113.77 port 55600 ssh2
+Oct 23 09:15:33 servidor sshd[3450]: Failed password for invalid user admin from 203.0.113.77 port 55601 ssh2
+Oct 23 09:15:36 servidor sshd[3450]: Connection closed by 203.0.113.77 port 55601 [preauth]
+Oct 23 09:16:03 servidor sshd[3460]: Failed password for root from 198.51.100.120 port 54200 ssh2
+Oct 23 09:16:06 servidor sshd[3460]: Failed password for root from 198.51.100.120 port 54201 ssh2
+Oct 23 09:16:09 servidor sshd[3460]: Connection closed by 198.51.100.120 port 54201 [preauth]
+Oct 23 09:17:12 servidor sshd[3472]: Accepted publickey for ubuntu from 192.0.2.21 port 52225 ssh2: RSA SHA256:RtYpOoPl...
+Oct 23 09:18:00 servidor sshd[3480]: Failed password for invalid user test from 198.51.100.14 port 51280 ssh2
+Oct 23 09:18:03 servidor sshd[3480]: Failed password for invalid user test from 198.51.100.14 port 51281 ssh2
+Oct 23 09:18:06 servidor sshd[3480]: Failed password for invalid user test from 198.51.100.14 port 51282 ssh2
+Oct 23 09:18:09 servidor sshd[3480]: Connection closed by 198.51.100.14 port 51282 [preauth]
+Oct 23 09:19:10 servidor sshd[3490]: Failed password for root from 203.0.113.200 port 58100 ssh2
+Oct 23 09:19:13 servidor sshd[3490]: Connection closed by 203.0.113.200 port 58100 [preauth]
+Oct 23 09:20:00 servidor sshd[3500]: Accepted publickey for ubuntu from 192.0.2.22 port 52226 ssh2: RSA SHA256:AsDfGhJk...
+Oct 23 09:21:05 servidor sudo:     admin : TTY=pts/3 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Oct 23 09:22:22 servidor sshd[3515]: Failed password for invalid user admin from 198.51.100.14 port 51290 ssh2
+Oct 23 09:22:25 servidor sshd[3515]: Failed password for invalid user admin from 198.51.100.14 port 51291 ssh2
+Oct 23 09:22:28 servidor sshd[3515]: Failed password for invalid user admin from 198.51.100.14 port 51292 ssh2
+Oct 23 09:22:31 servidor sshd[3515]: Connection closed by 198.51.100.14 port 51292 [preauth]
+Oct 23 09:23:50 servidor sshd[3525]: Failed password for root from 198.51.100.200 port 57300 ssh2
+Oct 23 09:23:53 servidor sshd[3525]: Failed password for root from 198.51.100.200 port 57301 ssh2
+Oct 23 09:23:56 servidor sshd[3525]: Connection closed by 198.51.100.200 port 57301 [preauth]
