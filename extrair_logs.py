@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 # Lê o arquivo CSV unificado
-df = pd.read_csv("data/logs_unificados.csv")
+df = pd.read_csv("logs_unificados.csv")
 
 # Listas para armazenar os campos extraídos
 ips = []
@@ -42,5 +42,5 @@ df_extraido = pd.DataFrame({
 print(df_extraido.head(10))
 
 # Salva em um novo arquivo CSV
-df_extraido.to_csv("data/logs_processados.csv", index=False)
-print("\n✅ Arquivo 'logs_processados.csv' criado com sucesso!")
+df_extraido.to_csv("logs_processados.csv", index=False)
+print("\n Arquivo 'logs_processados.csv' criado com sucesso!")
