@@ -1,35 +1,42 @@
-import os
 import pandas as pd
+from sklearn.ensemble import IsolationForest
+import matplotlib.pyplot as plt
 
-# Caminho da pasta onde estão os logs
-log_dir = "."  # ou "data/logs" se mover os arquivos pra lá
+# === Lê o CSV processado ===
+df = pd.read_csv("logs_processados.csv")
 
-# Lista para armazenar os dados
-logs_data = []
+print("\nPrimeiras linhas do arquivo processado:")
+print(df.head())
 
-# Percorre todos os arquivos da pasta
-for filename in os.listdir(log_dir):
-    if filename.endswith(".txt") or filename.endswith(".log"):
-        file_path = os.path.join(log_dir, filename)
-        print(f"Lendo arquivo: {filename}")
+# Remove linhas sem IP
+df = df.dropna(subset=["ip_origem"])
 
-        # Abre o arquivo e lê linha por linha
-        with open(file_path, "r", encoding="utf-8") as file:
-            for line in file:
-                line = line.strip()
-                if line:  # ignora linhas vazias
-                    logs_data.append({
-                        "arquivo": filename,
-                        "conteudo": line
-                    })
+# === Conta quantos eventos cada IP fez ===
+ip_counts = df["ip_origem"].value_counts().reset_index()
+ip_counts.columns = ["ip_origem", "qtd_eventos"]
 
-# Converte para um DataFrame
-df_logs = pd.DataFrame(logs_data)
+# === Aplica Isolation Forest para detectar IPs fora do padrão ===
+modelo = IsolationForest(contamination=0.15, random_state=42)
+ip_counts["anomalia"] = modelo.fit_predict(ip_counts[["qtd_eventos"]])
 
-# Mostra as primeiras linhas
-print("\nPrimeiras linhas lidas:")
-print(df_logs.head())
+# -1 = suspeito, 1 = normal
+suspeitos = ip_counts[ip_counts["anomalia"] == -1]
+normais = ip_counts[ip_counts["anomalia"] == 1]
 
-# Salva tudo em um CSV
-df_logs.to_csv("logs_unificados.csv", index=False)
-print("\n✅ Arquivo 'logs_unificados.csv' criado com sucesso!")
+print("\n🚨 IPs suspeitos detectados:")
+print(suspeitos)
+
+# === Gera gráfico dos IPs mais ativos ===
+plt.figure(figsize=(10, 5))
+plt.bar(ip_counts["ip_origem"], ip_counts["qtd_eventos"], color="gray")
+plt.bar(suspeitos["ip_origem"], suspeitos["qtd_eventos"], color="red")
+plt.xticks(rotation=45, ha="right")
+plt.title("Atividade de IPs (vermelho = suspeito)")
+plt.xlabel("IP de origem")
+plt.ylabel("Quantidade de eventos")
+plt.tight_layout()
+plt.show()
+
+# === Exporta IPs suspeitos ===
+suspeitos.to_csv("ips_suspeitos.csv", index=False)
+print("\n Lista salva em 'ips_suspeitos.csv'")
