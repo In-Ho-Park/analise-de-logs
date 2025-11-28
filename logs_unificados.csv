@@ -1,4 +1,14 @@
 arquivo,conteudo
+apache.log,"192.0.2.45 - - [23/Oct/2025:09:00:01] ""GET /index.html HTTP/1.1"" 200 5320"
+apache.log,"198.51.100.14 - - [23/Oct/2025:09:00:03] ""GET /login HTTP/1.1"" 200 1200"
+apache.log,"198.51.100.14 - - [23/Oct/2025:09:00:05] ""POST /login HTTP/1.1"" 401 340"
+apache.log,"198.51.100.14 - - [23/Oct/2025:09:00:06] ""POST /login HTTP/1.1"" 401 340"
+apache.log,"198.51.100.14 - - [23/Oct/2025:09:00:07] ""POST /login HTTP/1.1"" 401 340"
+apache.log,"203.0.113.200 - - [23/Oct/2025:09:00:08] ""GET /admin HTTP/1.1"" 403 820"
+apache.log,"203.0.113.200 - - [23/Oct/2025:09:00:09] ""GET /admin/config HTTP/1.1"" 403 820"
+apache.log,"203.0.113.200 - - [23/Oct/2025:09:00:10] ""GET /admin/panel HTTP/1.1"" 403 820"
+apache.log,"198.51.100.77 - - [23/Oct/2025:09:00:12] ""GET /index.html HTTP/1.1"" 200 5000"
+apache.log,"198.51.100.77 - - [23/Oct/2025:09:00:13] ""GET /about HTTP/1.1"" 200 2100"
 apache.log,"192.0.2.45 - - [23/Oct/2025:09:00:01 -0300] ""GET /index.php HTTP/1.1"" 200 4532 ""-"" ""Mozilla/5.0 (Windows NT 10.0; Win64; x64)"""
 apache.log,"198.51.100.14 - - [23/Oct/2025:09:00:03 -0300] ""GET /wp-login.php HTTP/1.1"" 200 5123 ""-"" ""curl/7.79.1"""
 apache.log,"198.51.100.14 - - [23/Oct/2025:09:00:05 -0300] ""POST /wp-login.php HTTP/1.1"" 200 234 ""-"" ""curl/7.79.1"""
@@ -107,6 +117,13 @@ apache.log,"192.0.2.99 - - [23/Oct/2025:09:04:52 -0300] ""GET /index.php?page=..
 apache.log,"203.0.113.9 - - [23/Oct/2025:09:04:55 -0300] ""GET /robots.txt HTTP/1.1"" 200 68 ""-"" ""Mozilla/5.0"""
 apache.log,"198.51.100.14 - - [23/Oct/2025:09:04:58 -0300] ""POST /wp-login.php HTTP/1.1"" 200 234 ""-"" ""curl/7.79.1"""
 apache.log,"192.0.2.45 - - [23/Oct/2025:09:05:01 -0300] ""GET /index.php HTTP/1.1"" 200 4532 ""-"" ""Mozilla/5.0"""
+auth.log,Oct 23 09:00:01 server sshd[1204]: Failed password for root from 203.0.113.88 port 4444 ssh2
+auth.log,Oct 23 09:00:02 server sshd[1204]: Failed password for root from 203.0.113.88 port 4444 ssh2
+auth.log,Oct 23 09:00:03 server sshd[1204]: Failed password for root from 203.0.113.88 port 4444 ssh2
+auth.log,Oct 23 09:00:04 server sshd[1402]: Failed password for root from 203.0.113.88 port 4444 ssh2
+auth.log,Oct 23 09:00:05 server sshd[1402]: Failed password for admin from 198.51.100.200 port 3333 ssh2
+auth.log,Oct 23 09:00:06 server sshd[1500]: Accepted password for www-data from 192.168.1.10 port 2222 ssh2
+auth.log,Oct 23 09:00:07 server sshd[1500]: Failed password for root from 198.51.100.200 port 3333 ssh2
 auth.log,Oct 23 09:00:02 servidor sshd[3221]: Failed password for invalid user admin from 198.51.100.14 port 51234 ssh2
 auth.log,Oct 23 09:00:05 servidor sshd[3221]: Failed password for invalid user admin from 198.51.100.14 port 51234 ssh2
 auth.log,Oct 23 09:00:08 servidor sshd[3221]: Failed password for invalid user admin from 198.51.100.14 port 51234 ssh2
@@ -196,6 +213,10 @@ auth.log,Oct 23 09:22:31 servidor sshd[3515]: Connection closed by 198.51.100.14
 auth.log,Oct 23 09:23:50 servidor sshd[3525]: Failed password for root from 198.51.100.200 port 57300 ssh2
 auth.log,Oct 23 09:23:53 servidor sshd[3525]: Failed password for root from 198.51.100.200 port 57301 ssh2
 auth.log,Oct 23 09:23:56 servidor sshd[3525]: Connection closed by 198.51.100.200 port 57301 [preauth]
+ufw.log,Oct 23 09:00:01 server kernel: [12345.01] [UFW BLOCK] IN=eth0 OUT= MAC=... SRC=203.0.113.77 DST=192.168.1.2 LEN=60 PROTO=TCP SPT=55874 DPT=22 WINDOW=29200
+ufw.log,Oct 23 09:00:02 server kernel: [12345.02] [UFW BLOCK] IN=eth0 OUT= MAC=... SRC=203.0.113.77 DST=192.168.1.2 LEN=60 PROTO=TCP SPT=55874 DPT=22 WINDOW=29200
+ufw.log,Oct 23 09:00:03 server kernel: [12345.03] [UFW BLOCK] IN=eth0 OUT= MAC=... SRC=198.51.100.44 DST=192.168.1.2 LEN=60 PROTO=TCP SPT=55900 DPT=3389 WINDOW=29200
+ufw.log,Oct 23 09:00:04 server kernel: [12345.04] [UFW BLOCK] IN=eth0 OUT= MAC=... SRC=198.51.100.44 DST=192.168.1.2 LEN=60 PROTO=TCP SPT=55900 DPT=3389 WINDOW=29200
 ufw.log,Oct 23 09:00:02 servidor kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:0c:29:aa:bb:cc:00:50:56:dd:ee:ff:08:00 SRC=198.51.100.14 DST=192.0.2.10 LEN=60 TOS=0x00 PREC=0x00 TTL=53 ID=54321 DF PROTO=TCP SPT=51234 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0
 ufw.log,Oct 23 09:00:05 servidor kernel: [UFW BLOCK] IN=eth0 OUT= MAC=00:0c:29:aa:bb:cc:00:50:56:dd:ee:ff:08:00 SRC=203.0.113.55 DST=192.0.2.10 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=54322 DF PROTO=TCP SPT=52311 DPT=22 WINDOW=29200 RES=0x00 SYN URGP=0
 ufw.log,Oct 23 09:00:10 servidor kernel: [UFW ALLOW] IN=eth0 OUT= MAC=... SRC=192.0.2.10 DST=198.51.100.100 LEN=52 PROTO=UDP SPT=123 DPT=123

@@ -1,0 +1,242 @@
+arquivo,ip_origem,data_hora,porta,evento,ip_cod,evento_cod,timestamp,anomalia,status
+apache.log,192.0.2.45,23/Oct/2025:09:00:01,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:00:03,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:00:05,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:00:08,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.120,23/Oct/2025:09:00:12,Desconhecido,GET,7,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:00:15,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.200,23/Oct/2025:09:00:18,Desconhecido,GET,23,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:00:20,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:00:22,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.70,23/Oct/2025:09:00:25,Desconhecido,GET,30,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.78,23/Oct/2025:09:00:28,Desconhecido,GET,14,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:00:30,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:00:33,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:00:36,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:00:38,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.101,23/Oct/2025:09:00:40,Desconhecido,GET,6,2,-9223372036854775808,-1,Suspeito
+apache.log,203.0.113.55,23/Oct/2025:09:00:42,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:00:44,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:00:47,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:00:50,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.99,23/Oct/2025:09:00:52,Desconhecido,GET,24,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.120,23/Oct/2025:09:00:55,Desconhecido,GET,7,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:00:57,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:01:00,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:01:03,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:01:06,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:01:09,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.78,23/Oct/2025:09:01:12,Desconhecido,GET,14,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.150,23/Oct/2025:09:01:15,Desconhecido,GET,22,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:01:18,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:01:21,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:01:23,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.120,23/Oct/2025:09:01:25,Desconhecido,GET,7,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.65,23/Oct/2025:09:01:28,Desconhecido,GET,29,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:01:31,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:01:34,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:01:36,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.101,23/Oct/2025:09:01:39,Desconhecido,GET,18,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:01:42,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:01:45,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:01:48,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.90,23/Oct/2025:09:01:50,Desconhecido,GET,16,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:01:52,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:01:55,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:01:58,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.120,23/Oct/2025:09:02:01,Desconhecido,GET,25,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:02:04,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.120,23/Oct/2025:09:02:07,Desconhecido,GET,7,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.59,23/Oct/2025:09:02:10,Desconhecido,GET,28,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.200,23/Oct/2025:09:02:13,Desconhecido,GET,23,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.78,23/Oct/2025:09:02:15,Desconhecido,GET,14,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:02:18,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:02:20,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:02:22,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:02:25,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:02:28,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.120,23/Oct/2025:09:02:30,Desconhecido,GET,7,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:02:33,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.150,23/Oct/2025:09:02:36,Desconhecido,GET,22,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:02:39,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:02:42,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:02:45,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.88,23/Oct/2025:09:02:48,Desconhecido,GET,15,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:02:51,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:02:54,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:02:56,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:02:59,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.110,23/Oct/2025:09:03:02,Desconhecido,GET,19,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:03:05,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:03:08,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:03:10,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.120,23/Oct/2025:09:03:13,Desconhecido,GET,7,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:03:16,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:03:19,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:03:22,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:03:25,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:03:28,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:03:31,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:03:34,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:03:37,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.77,23/Oct/2025:09:03:40,Desconhecido,GET,13,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:03:43,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:03:46,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:03:49,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:03:52,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.200,23/Oct/2025:09:03:55,Desconhecido,GET,23,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:03:58,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:04:01,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:04:04,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.120,23/Oct/2025:09:04:07,Desconhecido,GET,7,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:04:10,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:04:13,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:04:16,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:04:19,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.150,23/Oct/2025:09:04:22,Desconhecido,GET,22,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:04:25,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:04:28,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:04:31,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.120,23/Oct/2025:09:04:34,Desconhecido,GET,7,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:04:37,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:04:40,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:04:43,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.55,23/Oct/2025:09:04:46,Desconhecido,GET,27,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:04:49,Desconhecido,GET,21,2,-9223372036854775808,1,Normal
+apache.log,192.0.2.99,23/Oct/2025:09:04:52,Desconhecido,GET,17,2,-9223372036854775808,1,Normal
+apache.log,203.0.113.9,23/Oct/2025:09:04:55,Desconhecido,GET,32,2,-9223372036854775808,1,Normal
+apache.log,198.51.100.14,23/Oct/2025:09:04:58,Desconhecido,POST,21,3,-9223372036854775808,1,Normal
+apache.log,192.0.2.45,23/Oct/2025:09:05:01,Desconhecido,GET,12,2,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Desconhecido,21,0,-9223372036854775808,1,Normal
+auth.log,192.0.2.10,Desconhecido,Desconhecido,Desconhecido,5,0,-9223372036854775808,1,Normal
+auth.log,203.0.113.55,Desconhecido,Desconhecido,Failed password,27,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.55,Desconhecido,Desconhecido,Failed password,27,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.55,Desconhecido,Desconhecido,Failed password,27,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.55,Desconhecido,Desconhecido,Failed password,27,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.55,Desconhecido,Desconhecido,Desconhecido,27,0,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Desconhecido,21,0,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Desconhecido,20,0,-9223372036854775808,1,Normal
+auth.log,192.0.2.15,Desconhecido,Desconhecido,Desconhecido,8,0,-9223372036854775808,1,Normal
+auth.log,203.0.113.77,Desconhecido,Desconhecido,Failed password,31,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.77,Desconhecido,Desconhecido,Failed password,31,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.77,Desconhecido,Desconhecido,Failed password,31,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.77,Desconhecido,Desconhecido,Failed password,31,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.77,Desconhecido,Desconhecido,Failed password,31,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.77,Desconhecido,Desconhecido,Desconhecido,31,0,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Failed password,23,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Failed password,23,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Failed password,23,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Failed password,23,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Failed password,23,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Desconhecido,23,0,-9223372036854775808,1,Normal
+auth.log,192.0.2.10,Desconhecido,Desconhecido,Desconhecido,5,0,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Desconhecido,21,0,-9223372036854775808,1,Normal
+auth.log,203.0.113.200,Desconhecido,Desconhecido,Failed password,26,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.200,Desconhecido,Desconhecido,Failed password,26,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.200,Desconhecido,Desconhecido,Failed password,26,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.200,Desconhecido,Desconhecido,Desconhecido,26,0,-9223372036854775808,1,Normal
+auth.log,192.0.2.20,Desconhecido,Desconhecido,Desconhecido,9,0,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Desconhecido,21,0,-9223372036854775808,1,Normal
+auth.log,Desconhecido,Desconhecido,Desconhecido,Desconhecido,34,0,-9223372036854775808,-1,Suspeito
+auth.log,203.0.113.55,Desconhecido,Desconhecido,Failed password,27,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.55,Desconhecido,Desconhecido,Failed password,27,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.55,Desconhecido,Desconhecido,Failed password,27,1,-9223372036854775808,1,Normal
+auth.log,192.0.2.15,Desconhecido,Desconhecido,Desconhecido,8,0,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Desconhecido,20,0,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Failed password,23,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Failed password,23,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Failed password,23,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Desconhecido,23,0,-9223372036854775808,1,Normal
+auth.log,192.0.2.10,Desconhecido,Desconhecido,Desconhecido,5,0,-9223372036854775808,1,Normal
+auth.log,203.0.113.77,Desconhecido,Desconhecido,Failed password,31,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.77,Desconhecido,Desconhecido,Failed password,31,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.77,Desconhecido,Desconhecido,Desconhecido,31,0,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Failed password,20,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.120,Desconhecido,Desconhecido,Desconhecido,20,0,-9223372036854775808,1,Normal
+auth.log,192.0.2.21,Desconhecido,Desconhecido,Desconhecido,10,0,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Desconhecido,21,0,-9223372036854775808,1,Normal
+auth.log,203.0.113.200,Desconhecido,Desconhecido,Failed password,26,1,-9223372036854775808,1,Normal
+auth.log,203.0.113.200,Desconhecido,Desconhecido,Desconhecido,26,0,-9223372036854775808,1,Normal
+auth.log,192.0.2.22,Desconhecido,Desconhecido,Desconhecido,11,0,-9223372036854775808,-1,Suspeito
+auth.log,Desconhecido,Desconhecido,Desconhecido,Desconhecido,34,0,-9223372036854775808,-1,Suspeito
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Failed password,21,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.14,Desconhecido,Desconhecido,Desconhecido,21,0,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Failed password,23,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Failed password,23,1,-9223372036854775808,1,Normal
+auth.log,198.51.100.200,Desconhecido,Desconhecido,Desconhecido,23,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.14,Desconhecido,Desconhecido,UFW BLOCK,21,4,-9223372036854775808,1,Normal
+ufw.log,203.0.113.55,Desconhecido,Desconhecido,UFW BLOCK,27,4,-9223372036854775808,1,Normal
+ufw.log,192.0.2.10,Desconhecido,Desconhecido,Desconhecido,5,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.200,Desconhecido,Desconhecido,UFW BLOCK,23,4,-9223372036854775808,1,Normal
+ufw.log,203.0.113.99,Desconhecido,Desconhecido,Desconhecido,33,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.14,Desconhecido,Desconhecido,UFW BLOCK,21,4,-9223372036854775808,1,Normal
+ufw.log,198.51.100.150,Desconhecido,Desconhecido,UFW BLOCK,22,4,-9223372036854775808,-1,Suspeito
+ufw.log,10.0.0.5,Desconhecido,Desconhecido,Desconhecido,0,0,-9223372036854775808,-1,Suspeito
+ufw.log,203.0.113.77,Desconhecido,Desconhecido,UFW BLOCK,31,4,-9223372036854775808,-1,Suspeito
+ufw.log,203.0.113.120,Desconhecido,Desconhecido,Desconhecido,25,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.120,Desconhecido,Desconhecido,UFW BLOCK,20,4,-9223372036854775808,1,Normal
+ufw.log,198.51.100.200,Desconhecido,Desconhecido,UFW BLOCK,23,4,-9223372036854775808,1,Normal
+ufw.log,192.0.2.99,Desconhecido,Desconhecido,Desconhecido,17,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.14,Desconhecido,Desconhecido,UFW BLOCK,21,4,-9223372036854775808,1,Normal
+ufw.log,10.0.0.6,Desconhecido,Desconhecido,Desconhecido,1,0,-9223372036854775808,-1,Suspeito
+ufw.log,203.0.113.55,Desconhecido,Desconhecido,UFW BLOCK,27,4,-9223372036854775808,1,Normal
+ufw.log,203.0.113.77,Desconhecido,Desconhecido,UFW BLOCK,31,4,-9223372036854775808,-1,Suspeito
+ufw.log,198.51.100.150,Desconhecido,Desconhecido,Desconhecido,22,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.14,Desconhecido,Desconhecido,UFW BLOCK,21,4,-9223372036854775808,1,Normal
+ufw.log,192.0.2.10,Desconhecido,Desconhecido,Desconhecido,5,0,-9223372036854775808,1,Normal
+ufw.log,203.0.113.120,Desconhecido,Desconhecido,UFW BLOCK,25,4,-9223372036854775808,1,Normal
+ufw.log,203.0.113.99,Desconhecido,Desconhecido,Desconhecido,33,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.120,Desconhecido,Desconhecido,UFW BLOCK,20,4,-9223372036854775808,1,Normal
+ufw.log,198.51.100.200,Desconhecido,Desconhecido,UFW BLOCK,23,4,-9223372036854775808,1,Normal
+ufw.log,10.0.0.7,Desconhecido,Desconhecido,Desconhecido,2,0,-9223372036854775808,-1,Suspeito
+ufw.log,203.0.113.120,Desconhecido,Desconhecido,Desconhecido,25,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.14,Desconhecido,Desconhecido,UFW BLOCK,21,4,-9223372036854775808,1,Normal
+ufw.log,203.0.113.55,Desconhecido,Desconhecido,UFW BLOCK,27,4,-9223372036854775808,1,Normal
+ufw.log,203.0.113.77,Desconhecido,Desconhecido,UFW BLOCK,31,4,-9223372036854775808,-1,Suspeito
+ufw.log,198.51.100.150,Desconhecido,Desconhecido,Desconhecido,22,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.120,Desconhecido,Desconhecido,UFW BLOCK,20,4,-9223372036854775808,1,Normal
+ufw.log,10.0.0.8,Desconhecido,Desconhecido,Desconhecido,3,0,-9223372036854775808,-1,Suspeito
+ufw.log,203.0.113.120,Desconhecido,Desconhecido,UFW BLOCK,25,4,-9223372036854775808,1,Normal
+ufw.log,203.0.113.99,Desconhecido,Desconhecido,Desconhecido,33,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.14,Desconhecido,Desconhecido,UFW BLOCK,21,4,-9223372036854775808,1,Normal
+ufw.log,198.51.100.200,Desconhecido,Desconhecido,UFW BLOCK,23,4,-9223372036854775808,1,Normal
+ufw.log,192.0.2.99,Desconhecido,Desconhecido,Desconhecido,17,0,-9223372036854775808,1,Normal
+ufw.log,203.0.113.55,Desconhecido,Desconhecido,UFW BLOCK,27,4,-9223372036854775808,1,Normal
+ufw.log,10.0.0.9,Desconhecido,Desconhecido,Desconhecido,4,0,-9223372036854775808,1,Normal
+ufw.log,198.51.100.120,Desconhecido,Desconhecido,UFW BLOCK,20,4,-9223372036854775808,1,Normal
+ufw.log,198.51.100.150,Desconhecido,Desconhecido,Desconhecido,22,0,-9223372036854775808,1,Normal
+ufw.log,203.0.113.120,Desconhecido,Desconhecido,UFW BLOCK,25,4,-9223372036854775808,1,Normal
+ufw.log,198.51.100.14,Desconhecido,Desconhecido,UFW BLOCK,21,4,-9223372036854775808,1,Normal
+ufw.log,192.0.2.10,Desconhecido,Desconhecido,Desconhecido,5,0,-9223372036854775808,1,Normal

@@ -1,35 +1,53 @@
 import pandas as pd
 import re
 
-# Lê o arquivo CSV unificado
 df = pd.read_csv("logs_unificados.csv")
 
-# Listas para armazenar os campos extraídos
 ips = []
 datas = []
 portas = []
 eventos = []
 
-# Expressões regulares
-regex_ip = r"(?:SRC=)?(\d{1,3}(?:\.\d{1,3}){3})"
-regex_data = r"\[([0-9]{2}/[A-Za-z]{3}/[0-9]{4}:[0-9]{2}:[0-9]{2}:[0-9]{2})"
-regex_porta = r"PORT=(\d+)"
-regex_evento = r"(Failed password|UFW BLOCK|GET|POST|Invalid user|error|refused|denied)"
+# REGEX MELHORADOS
+regex_ip = r"(?:SRC=|from )(\d{1,3}(?:\.\d{1,3}){3})|^(\d{1,3}(?:\.\d{1,3}){3})"
+regex_data_syslog = r"([A-Za-z]{3}\s+\d{1,2}\s+\d{2}:\d{2}:\d{2})"
+regex_data_apache = r"\[([0-9]{2}/[A-Za-z]{3}/[0-9]{4}:[0-9]{2}:[0-9]{2}:[0-9]{2})"
+regex_porta = r"(?:DPT|SPT|PORT)=(\d+)"
 
-# Percorre cada linha do log
+regex_evento = r"(Failed password|Accepted password|invalid user|UFW BLOCK|UFW ALLOW|IPTABLES_DROP|Connection closed|GET\s+\S+|POST\s+\S+)"
+
+
 for linha in df["conteudo"]:
-    # Extrai informações usando regex
-    ip = re.search(regex_ip, linha)
-    data = re.search(regex_data, linha)
-    porta = re.search(regex_porta, linha)
-    evento = re.search(regex_evento, linha, re.IGNORECASE)
 
-    ips.append(ip.group(1) if ip else None)
-    datas.append(data.group(1) if data else None)
-    portas.append(porta.group(1) if porta else None)
-    eventos.append(evento.group(1) if evento else "Desconhecido")
+    # IP
+    ip_match = re.search(regex_ip, linha)
+    if ip_match:
+        ip = ip_match.group(1) or ip_match.group(2)
+    else:
+        ip = None
 
-# Cria um novo DataFrame com os dados extraídos
+    # DATA (syslog)
+    data_match1 = re.search(regex_data_syslog, linha)
+
+    # DATA (apache)
+    data_match2 = re.search(regex_data_apache, linha)
+
+    data = data_match1.group(1) if data_match1 else (
+           data_match2.group(1) if data_match2 else None)
+
+    # PORTA
+    porta_match = re.search(regex_porta, linha)
+    porta = porta_match.group(1) if porta_match else None
+
+    # EVENTO
+    evento_match = re.search(regex_evento, linha, re.IGNORECASE)
+    evento = evento_match.group(1) if evento_match else "Desconhecido"
+
+    ips.append(ip)
+    datas.append(data)
+    portas.append(porta)
+    eventos.append(evento)
+
 df_extraido = pd.DataFrame({
     "arquivo": df["arquivo"],
     "ip_origem": ips,
@@ -38,9 +56,7 @@ df_extraido = pd.DataFrame({
     "evento": eventos,
 })
 
-# Exibe as primeiras linhas
-print(df_extraido.head(10))
+print(df_extraido.head(20))
 
-# Salva em um novo arquivo CSV
 df_extraido.to_csv("logs_processados.csv", index=False)
 print("\n Arquivo 'logs_processados.csv' criado com sucesso!")
